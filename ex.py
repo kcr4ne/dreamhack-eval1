@@ -1,0 +1,1 @@
+__import__('base64').b64decode(open(__import__('os').path.join('./uploads', [f for f in __import__('os').listdir('./uploads') if '.txt' in f][0]), 'r').read())
